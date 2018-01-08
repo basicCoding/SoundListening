@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/witsawa/Downloads/SoundLisening/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/witsawa/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/witsawa/Downloads/SoundLisening/app/.externalNativeBuild/cmake/debug/mips --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/witsawa/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/witsawa/Downloads/SoundLisening/app/.externalNativeBuild/cmake/debug/mips --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/witsawa/Library/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/witsawa/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/witsawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/witsawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/witsawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/witsawa/Library/Android/sdk/ndk-bundle/sysroot/usr/include/mipsel-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/witsawa/Downloads/SoundLisening/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/witsawa/Downloads/SoundLisening/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "/Users/witsawa/Downloads/SoundLisening/app/build/intermediates/cmake/debug/obj/mips/libnative-lib.so",
+			"toolchain" : "1994569672239925779"
+		}
+	},
+	"toolchains" : 
+	{
+		"1994569672239925779" : 
+		{
+			"cCompilerExecutable" : "/Users/witsawa/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/witsawa/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
